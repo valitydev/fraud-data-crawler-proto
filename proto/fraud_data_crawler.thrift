@@ -15,6 +15,6 @@ enum ListType {
 struct FraudDataCandidate {
     1: required string type
     2: required string value
-    3: required ListType list
+    3: required ListType listType
     4: required string source
 }
