@@ -18,4 +18,5 @@ struct FraudDataCandidate {
     4: required string source
     5: optional string merchantId
     6: optional string shopId
+    7: required string batchId
 }
